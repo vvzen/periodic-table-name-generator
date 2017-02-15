@@ -51,7 +51,7 @@ fs.readFile(path.join(__dirname, elementsFile), "utf-8", function (err, data) {
 
 });
 
-// 2. Create function with letter as input and element name as output
+// Create function with word as input and elements names as output
 function getElementsInWord(word, symbols) {
 
     console.log("Testing with < " + word + " >");
