@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 90%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: #0F0F0F;
+    /* Standard syntax */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+label {
+    color: white;
+}

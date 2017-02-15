@@ -6,6 +6,7 @@ const elementsNameFile = "elements-symbols.json";
 
 // load elements json file
 fs.readFile(path.join(__dirname, elementsFile), "utf-8", function (err, data) {
+    if (err) console.log(err);
 
     // store all elements in var
     var elements = JSON.parse(data).elements;
@@ -17,7 +18,7 @@ fs.readFile(path.join(__dirname, elementsFile), "utf-8", function (err, data) {
         // store symbol names in var
         var elementsSymbols = JSON.parse(data);
 
-        var results = getElementsInWord("Valerio", elementsSymbols);
+        var results = getElementsInWord("adriano", elementsSymbols);
         var elementsNames = [];
 
         console.log("\n----- RESULTS -----\n");
