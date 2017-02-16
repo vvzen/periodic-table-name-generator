@@ -101,7 +101,7 @@ function getElementsInWord(word, symbols) {
                 if (currentLetter === firstTwoLettersOfSymbol[0]) {
 
                     // if we're not at the last letter
-                    if (l < symbols.length) {
+                    if (l < word.length) {
 
                         // select the best one from the partial matches
                         var firstTwoCurrentLetters = nextLetter ? currentLetter + nextLetter : currentLetter;

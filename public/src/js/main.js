@@ -153,7 +153,9 @@ function getElementsInWord(word, elements) {
     // for storing the matching elements (without empty arrays)
     var cleanedElements = [];
 
-    //var matchesToBeFound = Object.keys(nameObject).length;
+    var matchesToBeFound = Object.keys(nameObject).length;
+    console.log("nameObject: ");
+    console.log(nameObject);
 
     // console.log("matches to be found without repetition: " + matchesToBeFound);
     // console.log("matching elements length: " + matchingElements.length);
@@ -194,7 +196,7 @@ function getElementsInWord(word, elements) {
     var elementNamesAsString = namesOfElementsInInputName.toString().replace(/,/g, " - ");
 
     return {
-        asHtml: "<h3>" + elementsSymbolsAsString + "</h3>",
+        asHtml: "<h2>" + elementsSymbolsAsString + "</h2>",
         elements: {
             asHtml: "<h5>" + elementNamesAsString + "</h5>"
         }

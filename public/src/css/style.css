@@ -7,7 +7,7 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background: #0F0F0F;
+    background: #0B0B0B;
     /* Standard syntax */
 }
 
@@ -17,6 +17,11 @@ h3,
 h4,
 h5,
 p,
-label {
+label,
+.fa {
     color: white;
+}
+
+hr {
+    border-top: 3px double #fff;
 }
