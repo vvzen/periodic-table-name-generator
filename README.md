@@ -10,4 +10,9 @@ The file *periodic-table-of-elements.csv* was originally taken from:  [ http://w
 A more updated version of the json with all the elements can be found on the awesome **Corpora** project by *Dariusk*, here: [https://github.com/dariusk/corpora/tree/master/data/science](https://github.com/dariusk/corpora/tree/master/data/science)
 
 ##Example output
+###index.html
+![screenshot](./pteng.gif)
+
+###node app
 ![screenshot](./screenshot.png)
+
