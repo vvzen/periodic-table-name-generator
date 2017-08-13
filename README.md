@@ -1,5 +1,5 @@
-#PTENG!
-###Periodic Table Elements Name Generator
+# PTENG!
+### Periodic Table Elements Name Generator
 ===
 A simple generator written in **nodejs** that reads a word in input and outputs the same word as composed by elements of the periodic table.
 
@@ -9,10 +9,12 @@ The file *periodic-table-of-elements.csv* was originally taken from:  [ http://w
 
 A more updated version of the json with all the elements can be found on the awesome **Corpora** project by *Dariusk*, here: [https://github.com/dariusk/corpora/tree/master/data/science](https://github.com/dariusk/corpora/tree/master/data/science)
 
-##Example output
-###index.html
+## Example
+This repo includes a client and a server example.
+
+### index.html
 ![screenshot](./pteng.gif)
 
-###node app
+### node app
 ![screenshot](./screenshot.png)
 
