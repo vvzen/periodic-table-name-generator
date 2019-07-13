@@ -1,6 +1,6 @@
 # PTENG!
 ### Periodic Table Elements Name Generator
-===
+
 A simple generator written in **nodejs** that reads a word in input and outputs the same word as composed by elements of the periodic table.
 
 This repository contains the code and the data.
